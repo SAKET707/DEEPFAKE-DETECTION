@@ -19,6 +19,15 @@ Built with **PyTorch**, this model achieves **98.70% accuracy** on a balanced da
 * Achieved **98.70% accuracy** on validation set
 
 ---
+## 🚀 Demo
+|           |           |
+|-----------|-----------|
+| <img width="400" height="500" alt="eg1 fake" src="https://github.com/user-attachments/assets/64a7d09f-b56a-4960-8296-53d37a72aee6" />
+ | <img width="400" height="500" alt="eg1 real" src="https://github.com/user-attachments/assets/b595f352-6e11-480f-b4ae-34811f182e6e" />
+ |
+
+---
+
 
 ## 🧠 Model Architecture
 
