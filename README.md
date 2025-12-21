@@ -8,7 +8,7 @@ Built with **PyTorch**, this model achieves **98.70% accuracy** on a balanced da
 * URL : https://deepfake-detection-by-saket.streamlit.app/
 ---
 
-## 🚀 Features
+##  Features
 
 * **Custom CNN architecture** implemented in PyTorch
 * Input preprocessing with `torchvision.transforms`
@@ -19,7 +19,7 @@ Built with **PyTorch**, this model achieves **98.70% accuracy** on a balanced da
 * Achieved **98.70% accuracy** on validation set
 
 ---
-## 🚀 Demo
+##  Demo
 |   FAKE    |    REAL   |
 |-----------|-----------|
 | <img width="400" height="500" alt="eg1 fake" src="https://github.com/user-attachments/assets/64a7d09f-b56a-4960-8296-53d37a72aee6" /> | <img width="400" height="500" alt="eg1 real" src="https://github.com/user-attachments/assets/b595f352-6e11-480f-b4ae-34811f182e6e" />|
@@ -32,7 +32,7 @@ Built with **PyTorch**, this model achieves **98.70% accuracy** on a balanced da
 ---
 
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ```python
 class DeepfakeClassifier(nn.Module):
@@ -56,7 +56,7 @@ class DeepfakeClassifier(nn.Module):
 
 ---
 
-## 🛠️ Preprocessing
+##  Preprocessing
 
 Every input image is resized, converted to tensor, and normalized before inference:
 
@@ -73,7 +73,7 @@ transforms.Compose([
 
 ---
 
-## 📊 Results
+##  Results
 
 * **Training Dataset:** 8,000 images (4k real, 4k fake)
 * **Testing Dataset:** 2,000 images (1k real, 1k fake)
@@ -81,7 +81,7 @@ transforms.Compose([
 
 ---
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 This project is for **educational purposes only**.
 It is not intended for harmful use or to mislabel content outside research/academic scope.
